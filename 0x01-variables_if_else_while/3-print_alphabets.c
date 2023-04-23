@@ -12,11 +12,12 @@ int main(void)
 		putchar(n);
 		n++;
 	} while (n <= 122);
-int a = 65;
-do {
-	putchar(a);
-	a++;
-} while (a <= 90);
-putchar('\n');
-return (0);
+	int a = 65;
+
+	do {
+		putchar(a);
+		a++;
+	} while (a <= 90);
+	putchar('\n');
+	return (0);
 }
