@@ -4,20 +4,17 @@
   * Return: 0 (Success)
   */
 int main(void)
-
 {
-	int n = 97;
+	int n;
 
-	do {
+	for (n == 97; n <= 122; n++)
+	{
 		putchar(n);
-		n++;
-	} while (n <= 122);
-	int a = 65;
-
-	do {
-		putchar(a);
-		a++;
-	} while (a <= 90);
+	}
+	for (n == 65; n <= 90; n++)
+	{
+		putchar(n);
+	}
 	putchar('\n');
 	return (0);
 }
