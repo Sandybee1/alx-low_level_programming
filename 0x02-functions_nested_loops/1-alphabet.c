@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * print_alphabet - prints the alphabets in lowercase
+ * print_alphabet - prints the alphabets in lowercase to the console.
+ * the console supports ASCII characters.
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 
 	char c;
