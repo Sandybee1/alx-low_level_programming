@@ -9,7 +9,7 @@
   */
 int _abs(int b)
 {
-	if (b >= o)
+	if (b >= 0)
 	{
 		return (b);
 	}
@@ -17,4 +17,5 @@ int _abs(int b)
 	{
 		return (-b);
 	}
+	return (0);
 }
