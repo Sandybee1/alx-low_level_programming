@@ -2,23 +2,22 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints all natural numbers
- * from n to 98
- *
- * @n: The starting number is 0 
+ * print_to_98 - print all numbers from input to 98
+ * @n: the starting number
  */
-/* void print_to_98(int n) */
 
 void print_to_98(int n)
 {
-	while (n != 98)
+	if (n >= 98)
 	{
-		printf("%d, ", n);
-		if (n > 98) {
-			n--;
-		} else {
-			n++;
-		}
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
-	printf("%d\n", n);
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d, ", n);
+	}
 }
